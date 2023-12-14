@@ -23,11 +23,11 @@ if(valuemax > 100){
     CollectValue.innerHTML=`Vazio!!!!`
   }
 
-  if(valuemin ===""){
+  if(valuemin < 0){
     CollectValue.style.color = "#f00c0c";
     CollectValue.innerHTML=`Numero Negativos !!!!`
   }
-if(valuemax ===""){
+if(valuemax < 0){
     CollectValue.style.color = "#f00c0c";
     CollectValue.innerHTML=`Numero Negativos !!!!`
   }
