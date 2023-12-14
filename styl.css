@@ -55,6 +55,9 @@ input[type="number"] {
     font-size: 30px;
     font-weight: 500;
 }
+input[:placeholder]{
+    color: red;
+}
 
 .Bhutan_Box {
     display: flex;
