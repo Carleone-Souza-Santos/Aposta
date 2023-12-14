@@ -22,12 +22,12 @@ if(valuemax > 100){
     CollectValue.style.color = "#f00c0c";
     CollectValue.innerHTML=`Vazio!!!!`
   }
-  let zer =0;
-  if(valuemin < zer){
+
+  if(valuemin ===""){
     CollectValue.style.color = "#f00c0c";
     CollectValue.innerHTML=`Numero Negativos !!!!`
   }
-if(valuemax < zer){
+if(valuemax ===""){
     CollectValue.style.color = "#f00c0c";
     CollectValue.innerHTML=`Numero Negativos !!!!`
   }
