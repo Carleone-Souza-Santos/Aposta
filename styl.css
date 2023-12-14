@@ -55,10 +55,10 @@ input[type="number"] {
     font-size: 30px;
     font-weight: 500;
 }
-input[:placeholder]{
-    color: red;
+input::-webkit-input-placeholder{
+    color:rgb(250, 246, 250);
+    font-family: Roboto;
 }
-
 .Bhutan_Box {
     display: flex;
     justify-content: center;
